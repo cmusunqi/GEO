@@ -9,7 +9,7 @@
 ### Update Log: 2018-07-09  First version
 ###
 ### ---------------
-
+library(ggplot2, help, pos = 2, lib.loc = NULL)
 draw_h_v <- function(exprSet,need_DEG,n='DEseq2'){
   ## we only need two columns of DEG, which are log2FoldChange and pvalue
   ## heatmap
